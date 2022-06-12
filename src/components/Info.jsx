@@ -28,7 +28,7 @@ const Info = () => {
               <AiFillGithub />
               <a
                 className="font-bold underline pl-2"
-                href="https://github.com/Paulorrf?tab=repositories"
+                href="https://github.com/Paulorrf/countries"
                 rel="noreferrer"
                 target="_blank"
                 alt="github"
