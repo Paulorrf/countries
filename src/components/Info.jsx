@@ -8,7 +8,7 @@ const Info = () => {
       <div className="h-full shadow-md flex flex-col justify-center items-center">
         <div className="shadow-md p-8 w-[24rem] text-sm h-40 flex flex-col justify-center">
           <div className=" mr-auto ml-auto">
-            <h2 className="flex items-center gap-2 ">
+            <h2 className="flex items-center gap-2 dark:text-darkText">
               <SiFrontendmentor />
               This website idea came from
               <a
@@ -24,7 +24,7 @@ const Info = () => {
           </div>
 
           <div className="mr-auto ml-auto">
-            <h2 className="flex items-center pt-4">
+            <h2 className="flex items-center pt-4 dark:text-darkText">
               <AiFillGithub />
               <a
                 className="font-bold underline pl-2"

@@ -17,8 +17,8 @@ const NavBar = () => {
         <h2 className="font-bold dark:text-darkText">Where in the world?</h2>
       </Link>
 
-      <div className="flex">
-        <Link to="/info" className="pr-4">
+      <div className="flex ">
+        <Link to="/info" className="pr-4 dark:text-darkText">
           More Info
         </Link>
 
