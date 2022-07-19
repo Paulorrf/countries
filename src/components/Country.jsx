@@ -94,15 +94,16 @@ const Country = () => {
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-4 pt-4 w-48 md:w-full">
-            <p>Border Countries: </p>
+            {country.borders && <p>Border Countries: </p>}
             <ul className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 items-center gap-2">
-              {country.borders.map((city) => {
-                return (
-                  <li className="shadow-md bg-commomElements dark:bg-darkElements px-4 ">
-                    {city}
-                  </li>
-                );
-              })}
+              {country.borders &&
+                country.borders.map((city) => {
+                  return (
+                    <li className="shadow-md bg-commomElements dark:bg-darkElements px-4 ">
+                      {city}
+                    </li>
+                  );
+                })}
             </ul>
           </div>
         </div>
